@@ -1,0 +1,4 @@
+weaviate-client
+ipykernel
+dagster
+dagster-webserver
