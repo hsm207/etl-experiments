@@ -1,0 +1,16 @@
+{
+  "name": "Python 3.12 & Docker-in-Docker",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.12",
+  "features": {
+    "docker-in-docker": "latest"
+  },
+  "extensions": [
+    "GitHub.copilot",
+    "GitHub.copilot-chat",
+    "GitHub.vscode-pull-request-github",
+    "eamodio.gitlens",
+    "ms-python.python",
+    "ms-toolsai.jupyter"
+  ],
+  "postCreateCommand": "pip install -r /workspaces/etl-experiments/requirements.txt"
+}
