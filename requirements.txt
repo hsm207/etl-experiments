@@ -2,3 +2,4 @@ weaviate-client
 ipykernel
 dagster
 dagster-webserver
+black[jupyter]
